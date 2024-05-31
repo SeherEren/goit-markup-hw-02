@@ -50,9 +50,8 @@ body{
     color:#434455 ;
 }
 
-.nav-right .list .detay:hover,
-.nav-right .list .detay:focus{
-    color:#404bbf ;
+.address{
+    font-style: normal;
 }
 
 .slider{
@@ -69,7 +68,8 @@ body{
 }
 
 .button{ 
-    font-family: 'Roboto', sans-serif;  
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 500px; 
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -94,6 +94,7 @@ body{
 }
 
 .section-title{   
+    font-weight: medium;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -123,12 +124,11 @@ body{
     text-transform: capitalize;
 }
 
-.team-image{
+.team-ul .list .team-image{
     background-color: #FFFFFF;
 }
 
 .team-ul .list .team-name{
-    font-weight: 500px;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -160,7 +160,6 @@ body{
 }
 
 .portfolio-ul .our-portfolio-name{
-    font-weight: 500px;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -181,7 +180,6 @@ body{
 
 .logo2{
     font-family: 'Raleway', sans-serif;
-    font-weight: 700px;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
