@@ -47,7 +47,7 @@ body{
 .nav-right-ul .list .detay{
     letter-spacing: 0.02em;
     line-height: 1.5;
-    text-decoration: none;
+    font-style: normal;
     color:#434455 ;
 }
 
@@ -71,18 +71,14 @@ body{
     letter-spacing: 0.02em;
 }
 
-.button{   
+.button{ 
+    font-family: 'Roboto', sans-serif;  
     font-size: 16px;
     font-weight: 500px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     background-color: #4D5AE5;
     color: #FFFFFF;
-    width: 169px;
-    height: 56px;
-    border-radius: 4px;
-    padding: 16px,32px;
-    gap: 10px;
     cursor: pointer;
 }
 
@@ -102,7 +98,7 @@ body{
 }
 
 .section-title{   
-    font-weight: 500px;
+    /* font-weight: 500px; */
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -119,8 +115,6 @@ body{
 }
 
 .our-team{
-    width: 1440px;
-    height: 732px;
     background-color:#F4F4FD;
 }
 
@@ -137,19 +131,9 @@ body{
 .team-ul .team-liste{
     width: 264px;
     height: 380px;
-    background-color: #FFFFFF;
-    border-radius: 0px, 0px, 4px,4px;
-    padding: 0px, 0px, 32px, 0px;
-    gap: 32px;
-}
-
-.team-image{
-   width: 264px;
-   height: 260px; 
 }
 
 .team-ul .list .team-name{
-    font-weight: 500px;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -181,7 +165,6 @@ body{
 }
 
 .portfolio-ul .our-portfolio-name{
-    font-weight: 500px;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -197,12 +180,12 @@ body{
 }
 
 .footer{
-    width: 1440px;
-    height: 312px;
     background-color: #2E2F42;
 }
 
 .logo2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700px;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -215,13 +198,11 @@ body{
 }
 
 .footer-description{
-    width: 264px;
-    height: 72px;
     font-weight: 400px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #E7E9FC;
+    color: #F4F4FD;
 }
 
 
