@@ -8,7 +8,7 @@ body{
     letter-spacing: 2%;
      
 }
-.nav-left{
+.navbar{
     background-color: #FFFFFF;  
 }
 
@@ -30,7 +30,7 @@ body{
     color: #2E2F42;
 }
 
-.nav-left-ul .list .detay{
+.nav-left .list .detay{
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -39,20 +39,19 @@ body{
     text-decoration: none;
 }
 
-.nav-left-ul .list .detay:hover
-.nav-left-ul .list .detay:focus{
+.nav-left .list .detay:hover
+.nav-left .list .detay:focus{
     color: #404bbf;
 }
 
-.nav-right-ul .list .detay{
+.nav-right .list .detay{
     letter-spacing: 0.02em;
     line-height: 1.5;
-    font-style: normal;
     color:#434455 ;
 }
 
-.nav-right-ul .list .detay:hover,
-.nav-right-ul .list .detay:focus{
+.nav-right .list .detay:hover,
+.nav-right .list .detay:focus{
     color:#404bbf ;
 }
 
@@ -61,8 +60,6 @@ body{
 }
 
 .slider-title{
-    width: 1440px;
-    height: 600px;
     text-align: center;
     color: #FFFFFF;
     font-weight: 700px;
@@ -74,7 +71,6 @@ body{
 .button{ 
     font-family: 'Roboto', sans-serif;  
     font-size: 16px;
-    font-weight: 500px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     background-color: #4D5AE5;
@@ -98,7 +94,6 @@ body{
 }
 
 .section-title{   
-    /* font-weight: 500px; */
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -128,12 +123,12 @@ body{
     text-transform: capitalize;
 }
 
-.team-ul .team-liste{
-    width: 264px;
-    height: 380px;
+.team-image{
+    background-color: #FFFFFF;
 }
 
 .team-ul .list .team-name{
+    font-weight: 500px;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -165,6 +160,7 @@ body{
 }
 
 .portfolio-ul .our-portfolio-name{
+    font-weight: 500px;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -198,8 +194,6 @@ body{
 }
 
 .footer-description{
-    font-weight: 400px;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
