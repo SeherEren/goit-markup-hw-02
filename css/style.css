@@ -74,6 +74,7 @@ body{
 
 .button{ 
     font-family: 'Roboto', sans-serif; 
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -98,6 +99,7 @@ body{
 }
 
 .section-title{   
+    font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -114,7 +116,7 @@ body{
 }
 
 .our-team{
-    background-color:#F4F4FD;
+    background-color:#FFFFFF;
 }
 
 .our-team-title{ 
@@ -125,6 +127,7 @@ body{
     text-align: center;
     color: #2E2F42;
     text-transform: capitalize;
+    background-color:#FFFFFF;
 }
 
 .team-ul .list .team-name{
@@ -134,13 +137,12 @@ body{
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
-    background-color: #FFFFFF;
 }
 
 .team-ul .list .team-title{
     font-weight: 400px;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
