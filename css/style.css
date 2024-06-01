@@ -127,6 +127,9 @@ body{
     text-align: center;
     color: #2E2F42;
     text-transform: capitalize;
+}
+
+.team-ul .list {
     background-color:#FFFFFF;
 }
 
@@ -137,7 +140,6 @@ body{
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
-    background-color:#FFFFFF;
 }
 
 .team-ul .list .team-title{
