@@ -116,7 +116,7 @@ body{
 }
 
 .our-team{
-    background-color:#FFFFFF;
+    background-color:#F4F4FD;
 }
 
 .our-team-title{ 
@@ -182,7 +182,7 @@ body{
     background-color: #2E2F42;
 }
 
-.logo2{
+.logoFooter{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -192,7 +192,7 @@ body{
     color: #4D5AE5;
 }
 
-.span2{
+.spanFooter{
     color: #F4F4FD;
 }
 
